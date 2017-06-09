@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Advanced Chat</title>
+    <link rel="stylesheet" type="text/css" href="public/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css" />
+</head>
+<body>
+    <div id="chat">
+        <div id="chat-left">
+            <div id="chat-container">
+                <p></p>
+            </div>
+            <div id="chat-sender">
+                <form id="chat-sender-input" autocomplete="off">
+                    <input type="text" id="chat-text-input" placeholder="Votre message ..." />
+                </form>
+            </div>
+        </div>
+        <div id="chat-right">
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="public/js/main.js"></script>
+</body>
+</html>

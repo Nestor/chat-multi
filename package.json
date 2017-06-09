@@ -1,0 +1,22 @@
+{
+  "name": "chat-advanced",
+  "version": "1.0.0",
+  "description": "Chat socket multi-clients",
+  "main": "serveur.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node serveur.js"
+  },
+  "keywords": [
+    "socket",
+    "client",
+    "multi",
+    "chat"
+  ],
+  "author": "Melvin Chabin",
+  "license": "ISC"
+}
